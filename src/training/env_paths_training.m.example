@@ -1,0 +1,7 @@
+function opts = env_paths_training(opts)
+
+    opts.rootDataDir = 'your/path/to/ILSVRC2015_crops/Data/VID/train/'; % where the training set is
+    opts.imdbVideoPath = 'your/path/to/imdb_video.mat'; % where the training set metadata are
+    opts.imageStatsPath = 'your/path/to/imageStats.mat'; % where the training set stats are
+
+end
